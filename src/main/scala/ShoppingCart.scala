@@ -7,7 +7,7 @@ import scala.math.BigDecimal.RoundingMode
 
 object ShoppingCart {
 
-  // Each Item price.
+  // Each Item price..
   private val itemsPriceList: Map[String, Double] = Map(("apple", 0.60), ("orange", 0.25))
 
   //Basic Checkout
