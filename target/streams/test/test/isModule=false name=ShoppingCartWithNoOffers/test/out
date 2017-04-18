@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mShoppingCartWithNoOffers:[0m[0m
+[0m[[0minfo[0m] [0m[32mFeature: Basic Shopping Cart[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout with 1 apple and no offer[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When Add products with no offers [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total sum should be simple sum of prices [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout with 1 orange and no offer[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When Add one orange [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total sum should be price of one orange [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout with no offer and multiple items[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When Add products with no offers [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total sum should be simple sum of prices [0m[0m

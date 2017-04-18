@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0m[32mShoppingCartWithOffers:[0m[0m
+[0m[[0minfo[0m] [0m[32mFeature: Shopping Cart with Offers[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout BOGOF offer[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When 2 apples added to the basket [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total price should be same as one apple [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout 3for2 offer[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When 3 oranges added to the basket [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total price should equal to prices of 2 oranges [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout both 3for2 and BOGOF offers[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When 3 oranges and 2 apples added to the basket [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total price should equal to prices of 2 oranges and 1 apple [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Testing Checkout with no offer[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A shopping cart [0m[0m
+[0m[[0minfo[0m] [0m[32m    When 2 oranges and 1 apple added to the basket [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Total price should equal to prices of 2 oranges and 1 apple [0m[0m
